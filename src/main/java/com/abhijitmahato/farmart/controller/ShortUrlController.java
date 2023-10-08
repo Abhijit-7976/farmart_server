@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.abhijitmahato.farmart.models.UserFile;
 import com.abhijitmahato.farmart.service.FileService;
 
-@CrossOrigin(origins = "http://localhost:5173/")
+@CrossOrigin(origins = "https://elaborate-marzipan-b473a7.netlify.app/")
 @RestController
 public class ShortUrlController {
   @Autowired

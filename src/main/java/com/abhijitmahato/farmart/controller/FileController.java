@@ -24,7 +24,7 @@ import com.abhijitmahato.farmart.models.UserFile;
 import com.abhijitmahato.farmart.service.AmazonS3Service;
 import com.abhijitmahato.farmart.service.FileService;
 
-@CrossOrigin(origins = "http://localhost:5173/")
+@CrossOrigin(origins = "https://elaborate-marzipan-b473a7.netlify.app/")
 @RestController
 @RequestMapping("/api/files")
 public class FileController {
